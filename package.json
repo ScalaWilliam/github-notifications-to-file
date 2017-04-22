@@ -1,0 +1,24 @@
+{
+  "name": "github-notifications-to-file",
+  "version": "1.0.0",
+  "description": "Collects GitHub notifications into plaintext NDJSON. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScalaWilliam/github-notifications-to-file.git"
+  },
+  "author": "William Narmontas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ScalaWilliam/github-notifications-to-file/issues"
+  },
+  "homepage": "https://github.com/ScalaWilliam/github-notifications-to-file#readme",
+  "dependencies": {
+    "n-readlines": "^0.2.7",
+    "request": "^2.81.0",
+    "yargs": "^7.1.0"
+  }
+}
