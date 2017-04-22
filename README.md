@@ -1,9 +1,12 @@
 # github-notifications-to-file
-Collects GitHub notifications into plaintext NDJSON.
+
+Appends GitHub notifications into plaintext NDJSON.
 
 Usage:
 ```
-GITHUB_TOKEN=fd688a65eae2f1e7baa3238aa7afe95533cdecbd node ./index.js -f data.tsv 
+$ npm install -g github-notifications-to-file
+$ GITHUB_TOKEN=abcd github-notifications-to-file -f - 
+$ GITHUB_TOKEN=defg github-notifications-to-file -f notifications.tsv 
 ```
 
 You decide externally how often to run this command.
